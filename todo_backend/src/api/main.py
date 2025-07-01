@@ -13,4 +13,4 @@ app.add_middleware(
 
 @app.get("/")
 def health_check():
-    return {"message": "Healthy"}
+    return {"message": "Healthy ok"}
